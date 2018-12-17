@@ -1,8 +1,8 @@
 # CS-250
 
 A Search Engine implementation using xml files as input.
-the structure of valid input xml
-"<collection>
+Structure of valid input xml.
+<code><collection>
   <page>
     <id>some +ve integer</id>
     <title> title of the page </title>
@@ -14,7 +14,7 @@ the structure of valid input xml
   .
   .
   . 
-</collection>"
+</collection></code>
 
-xml_parser.py generates inverted index for given xml file
-On command prompt: python xml_parser.py stopwords.xml sample.xml sample-output.xml
+1.  xml_parser.py generates inverted index for given xml file.
+    On command prompt: python xml_parser.py stopwords.xml sample.xml sample-output.xml
