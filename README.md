@@ -17,6 +17,9 @@ Structure of valid input xml.
   . 
 </collection>
 ```
-
-1.  <code>xml_parser.py</code> generates inverted index for given xml file.
-    On command prompt: <code>python xml_parser.py stopwords.xml sample.xml sample-output.xml</code>
+<ol>
+<li> <code>xml_parser.py</code> generates inverted index for given xml file.<br />
+      On command prompt: <code>python xml_parser.py stopwords.xml sample.xml sample-output.xml</code><br />
+      It generates sample-output.xml file as  "word|pageID:occurence1,occurence2...;pageID:occurence1, occurernce2...;..." on each line<br />
+  
+<ol>
