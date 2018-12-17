@@ -1,6 +1,6 @@
 # CS-250
 
-A Search Engine implementation using xml files as input.
+A Search Engine implementation using xml files as input.<br />
 Structure of valid input xml.
 ```xml
 <collection>
