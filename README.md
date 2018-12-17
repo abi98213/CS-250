@@ -2,7 +2,8 @@
 
 A Search Engine implementation using xml files as input.
 Structure of valid input xml.
-<code><collection>
+```xml
+<collection>
   <page>
     <id>some +ve integer</id>
     <title> title of the page </title>
@@ -14,7 +15,8 @@ Structure of valid input xml.
   .
   .
   . 
-</collection></code>
+</collection>
+```
 
-1.  xml_parser.py generates inverted index for given xml file.
-    On command prompt: python xml_parser.py stopwords.xml sample.xml sample-output.xml
+1.  <code>xml_parser.py</code> generates inverted index for given xml file.
+    On command prompt: <code>python xml_parser.py stopwords.xml sample.xml sample-output.xml</code>
